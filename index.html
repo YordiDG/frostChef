@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="author"
+      content="Diego Sanchez, Victor Diaz, Leonardo Patrocinio, Jose navarro, Ismael Zamora, Piero Marquez"
+    />
+    <meta name="description" content="FrostChef Landing Page Site" />
+    <meta
+      name="keywords"
+      content="FrostChef, refrigeradoras, restaurantes, técnicos, Reseñas"
+    />
+    <link rel="icon" href="assets/images/Logazo.png" />
+    <title>FrostChef</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link href="assets/styles/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo-c.png"  alt="Logo FrostChef" />
+          <h1>FrostChef</h1>
+        </a>
+        <!-- for hyperlinks -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#bienvenido-section">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicios-section">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios-section">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#promociones-section">Promociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#formulario-section">Contáctanos</a>
+            </li>
+          </ul>
+
+          <!-- Language Toggle Button with Flags -->
+          <a class="nav-link" href="english.html" title="English" style="margin-left: 20px;">
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg" alt="English" style="width: 32px; height: auto;"/>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Back to top button -->
+    <button class="scroll-top" onclick="scroolTop()">
+      <div class="arrow up"></div>
+    </button>
+    <!-- the landing will be dissected in 5 sections -->
+    <!--first choose the number of divitions the section will have -->
+    <section class="main-section">
+      <div class="container">
+        <div class="row">
+          <!-- the space is divided in 12 subsections, in this case it would be the whole space -->
+          <div class="col-md-12">
+            <!-- divition for images, inside the 2 links of images -->
+            <div class="main-image-content">
+              <img
+                src="https://media.istockphoto.com/id/1394055791/es/foto/retrato-de-una-chef-negra-segura-de-s%C3%AD-misma-en-la-cocina-del-restaurante-mirando-a-la-c%C3%A1mara.jpg?s=612x612&w=0&k=20&c=6VO7PE7UUFRpP-VLU6liRVbTN-yHrn4OH5hRQCqXfjQ="
+                alt="dueño de restaurante"
+              />
+              <img
+                      src="https://i.pinimg.com/736x/5e/df/41/5edf41526190c705f0a60107eb821727.jpg"
+                      alt="refrigeracion"
+              />
+
+
+            </div>
+            <div class="main-section-content">
+              <h2>
+                Revoluciona la forma en que tu restaurante maneja la refrigeración:
+                Control preciso, menos desperdicio y calidad garantizada.
+              </h2>
+              <p>
+                Optimiza la refrigeración de tu restaurante con un control
+                preciso que reduce el desperdicio y garantiza la calidad de
+                tus productos. ¡Transforma tu manera de operar y asegura la
+                frescura en cada plato!
+              </p>
+
+              <span>Descargala para IOS y Android </span>
+              <div>
+                <a href="#"><img
+                        src="https://llamafood.com/assets/images/button-appStore.svg"
+                        alt="Boton IOS"
+                /></a>
+               <a href="#"> <img
+                       src="https://llamafood.com/assets/images/button-playStore.svg"
+                       alt="Boton PlayStore"
+               /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="bienvenido-section" class="bienvenido-container">
+      <main class="container">
+        <div class="bienvenido-title-content">
+          <h2 class="bienvenido-title">Bienvenido somos FrostChef</h2>
+          <div>
+            <p class="bienvenido-text">
+              La misión de nuestra empresa es ser el aliado esencial para
+              los restaurantes en la gestión de su refrigeración.
+              Nos dedicamos a proporcionar soluciones innovadoras y
+              eficientes que aseguren un control preciso de la temperatura,
+              minimicen el desperdicio y garanticen la calidad de los productos.
+              Queremos que cada restaurante confíe en nosotros para optimizar
+              sus operaciones y mantener la frescura en cada plato servido.
+            </p>
+          </div>
+        </div>
+        <div class="image-bienvenido">
+          <img src="assets/images/tecnical.webp" alt="Graduation hats" />
+        </div>
+      </main>
+    </section>
+    <section id="servicios-section" class="container servicios-container">
+      <h2>¿Qué ofrecemos?</h2>
+      <div class="servicios-cards">
+        <div class="card">
+          <h3>Dueños de Restaurantes</h3>
+          <img  src="https://img.freepik.com/fotos-premium/dueno-restaurante-hombre-negocios-pie-cocina_1009902-989.jpg" alt="Dueño de restaurante">
+          <ul>
+            <li>Monitoreo en tiempo real del estado de tus equipos de refrigeración.</li>
+            <li>Alertas automáticas sobre fallos o mal funcionamiento de equipos.</li>
+            <li>Informe detallado de consumo energético y eficiencia de tus sistemas de refrigeración.</li>
+            <li>Acceso a reportes históricos para mejorar la gestión del equipo.</li>
+            <li>Soporte técnico prioritario para garantizar la calidad de los alimentos.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Técnicos de Refrigeración</h3>
+          <img  src="https://www.shutterstock.com/image-photo/professional-young-repairman-worker-uniform-260nw-1987233266.jpg" alt="Técnico revisando equipo de refrigeración">
+          <ul>
+            <li>Acceso a herramientas de diagnóstico avanzado para detectar problemas en sistemas de refrigeración.</li>
+            <li>Historial de mantenimientos realizados en cada equipo.</li>
+            <li>Comparación de rendimiento entre diferentes marcas de refrigeradores.</li>
+            <li>Planificación y recordatorios de mantenimientos preventivos.</li>
+            <li>Soporte técnico para optimizar la eficiencia de los sistemas de refrigeración.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonios-section" class="container testimonios-container">
+      <h2>Testimonios</h2>
+      <div>
+        <div>
+          <div class="testimonio-content">
+            <p>
+              Con FrostChef, hemos reducido significativamente el desperdicio de alimentos y los costos de energía. ¡Es un cambio radical! Nuestra cocina funciona mejor y hemos visto un impacto inmediato en los ahorros.
+            </p>
+            <span>Luis Torres, Padre</span>
+          </div>
+          <div>
+            <img
+                    src="https://thumbs.dreamstime.com/b/cocinero-en-el-refrigerador-6434411.jpg"
+                    alt="Padre usando una laptop"
+            />
+          </div>
+        </div>
+        <div>
+          <div class="image-desktop">
+            <img
+                    src="assets/images/testimonio2.png"
+                    alt="Estudiante universitario usando una laptop"
+            />
+          </div>
+          <div class="testimonio-content">
+            <p>
+              La monitorización en tiempo real y los ajustes automáticos han facilitado la gestión de nuestro inventario. Ahora nos enfocamos más en el servicio y menos en las preocupaciones de mantenimiento.
+            </p>
+            <span>Rosa Sánchez, Estudiante Universitaria</span>
+          </div>
+          <div class="image-mobile">
+            <img src="assets/images/testimonio2.png"  alt=""/>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <section id="promociones-section" class="promociones-container">
+      <div class="container">
+        <h2>¡Aprovecha Nuestras Promociones!</h2>
+        <p>Tenemos promociones adaptadas a tus necesidades.</p>
+        <div class="promociones-cards">
+          <!-- Card 1: 1 Month -->
+          <div class="promocion-card card-1">
+            <div class="card-image">
+              <img src="https://cdn-icons-png.flaticon.com/512/1869/1869397.png" alt="Promoción de 1 Mes" />
+            </div>
+            <div class="card-content">
+              <h5>Plan de 1 Mes</h5>
+              <p>Precio: S/. 60.00</p>
+              <p>Perfecto para probar nuestro servicio sin compromiso a largo plazo. Obtén un mes completo de acceso a funciones premium y soporte exclusivo.</p>
+              <h6>Ventajas:</h6>
+              <ul>
+                <li>✔ Acceso completo al contenido premium.</li>
+                <li>✔ Soporte técnico prioritario durante un mes.</li>
+                <li>✔ Ideal para proyectos a corto plazo o evaluaciones.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 2: 3 Months -->
+          <div class="promocion-card card-2">
+            <div class="card-image">
+              <img src="https://cdn-icons-png.flaticon.com/512/10081/10081794.png" alt="Promoción de 3 Meses" />
+            </div>
+            <div class="card-content">
+              <h5>Plan de 3 Meses</h5>
+              <p>Precio: S/. 140.00</p>
+              <p>Disfruta de más ahorros y estabilidad con nuestro plan de tres meses, perfecto para empresas que buscan continuidad.</p>
+              <h6>Ventajas:</h6>
+              <ul>
+                <li>✔ Ahorros mayores en comparación con el plan mensual.</li>
+                <li>✔ Acceso continuo a soporte técnico prioritario.</li>
+                <li>✔ Análisis integral del rendimiento de refrigeración.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Card 3: 4 Months -->
+          <div class="promocion-card card-3">
+            <div class="card-image">
+              <img src="https://cdn-icons-png.flaticon.com/512/11254/11254545.png" alt="Promoción de 4 Meses" />
+            </div>
+            <div class="card-content">
+              <h5>Plan de 4 Meses</h5>
+              <p>Precio: S/. 200.00</p>
+              <p>¡Nuestro plan de mejor valor! Maximiza tus beneficios con un servicio extendido y características premium.</p>
+              <h6>Ventajas:</h6>
+              <ul>
+                <li>✔ Opción más económica para necesidades a largo plazo.</li>
+                <li>✔ Acceso continuo a todas las funciones premium y soporte técnico.</li>
+                <li>✔ Seguimiento y optimización del rendimiento de los sistemas de refrigeración.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Membership Benefits Section -->
+        <div class="membership-benefits">
+          <h4>Beneficios de Membresía</h4>
+          <ul>
+            <li>✔ Acceso a soporte técnico prioritario para resolver cualquier problema con tu equipo de refrigeración.</li>
+            <li>✔ Comparación detallada del rendimiento y consumo energético de diferentes unidades de refrigeración para optimizar costos y eficiencia.</li>
+            <li>✔ Monitoreo en tiempo real sin interrupciones publicitarias en nuestra aplicación y plataforma web.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario-section" class="container formulario-container">
+      <div>
+        <h2>¿Dudas? ¿Sugerencias? ¡Escríbenos! Siempre estamos para ti.</h2>
+        <img src="assets/images/dudas.jpg" />
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="inputNombre">Nombre</label>
+          <input
+                  type="text"
+                  class="form-control"
+                  id="inputNombre"
+                  placeholder="Nombre"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputApellido">Apellido</label>
+          <input
+                  type="text"
+                  class="form-control"
+                  id="inputApellido"
+                  placeholder="Apellido"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputCorreo">Correo</label>
+          <input
+                  type="email"
+                  class="form-control"
+                  id="inputCorreo"
+                  placeholder="Holamundo@gmail.com"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputTelefono">Teléfono</label>
+          <input
+                  type="text"
+                  class="form-control"
+                  id="inputTelefono"
+                  placeholder="12345678"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputMensaje">Mensaje</label>
+          <input
+                  type="text"
+                  class="form-control"
+                  id="inputMensaje"
+                  placeholder="Cómo podemos ayudarte?"
+          />
+        </div>
+        <div class="form-group">
+          <label for="inputTipoUsuario">Tipo de usuario</label>
+          <select id="inputTipoUsuario" class="form-control">
+            <option selected>Escoge una opción</option>
+            <option>Dueño de Restaurante</option>
+            <option>Técnico</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+
+    <footer>
+      <img src="assets/images/logo-c.png" alt="">
+
+      <ul class="icons">
+        <li>
+          <a>
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a>
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a>
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a>
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#bienvenido-section">Nosotros</a></li>
+        <li><a href="#servicios-section">Servicios</a></li>
+        <li><a href="#pantallas-section">VistaApp</a></li>
+        <li><a href="#testimonios-section">Testimonios</a></li>
+        <li><a href="#promociones-section">Planes</a></li>
+        <li><a href="#contactanos-section">Contactanos</a></li>
+      </ul>
+      <div class="footer-copyright">
+        <p>Copyright @ 2022 All Rights Reserved - FrostChef.</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script>
+      const scrollBreakpoint = window.innerHeight * 0.9;
+
+      document.addEventListener("DOMContentLoaded", () => {
+        setupScrollListener();
+      });
+
+      function scroolTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+
+      function setupScrollListener() {
+        window.addEventListener("scroll", (e) => {
+          const scrollButton = document.querySelector(".scroll-top");
+
+          // const scrollOffset = document.scrollingElement.scrollTop;
+          const scrollOffset = window.scrollY;
+
+          if (scrollOffset >= scrollBreakpoint) {
+            scrollButton.classList.add("visible");
+          } else if (scrollOffset <= 0) {
+            scrollButton.classList.remove("visible");
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
